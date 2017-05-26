@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
+    
+    <link rel="stylesheet" href="css/main.css">
 
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -49,6 +51,14 @@
             <button class="btn btn-primary" onclick="changeStyle()">Képméretező</button> 
             <br>
             <img src="http://www.solarside.hu/wp-content/uploads/2014/12/Nap-rajz.jpg">
+            
+            <h4>Űrlap ellenőrzése</h4>
+            <form method="post" action="#">
+                <input class="input-validate" type="number">
+                <button type="button" onclick="validate()">Ellenőrzés</button>
+                <p class="no-validate"></p>
+            
+            </form>
         </div>
     </div>
 
